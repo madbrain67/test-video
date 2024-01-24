@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var maVideo = document.getElementById('maVideo');
+    var maVideo = document.querySelector('#maVideo');
 
     // Sauvegarder le temps actuel de la vidéo dans le stockage local lorsque la page est quittée
     window.addEventListener('beforeunload', function() {
